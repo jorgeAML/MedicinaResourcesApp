@@ -5,11 +5,21 @@
     ViewData["titulo2"]= "Formas Iniciales de la industria en Guatemala";
     ViewData["autor1"] = "Edeliberto Cifuentes Medina";
     ViewData["autor2"] = "Jorge AML";
+    ViewData["Intro"] = "Introduccion";
 }
 <h1>@ViewData["titulo2"]</h1>
 <h6>@ViewData["Title"], @ViewData["autor1"]</h6>
-<h3>Introducción</h3>
-<p>En mi corta estadía en el instituto de investigaciones históricas, antropológicas</p>
+<div class="container">
+    <div class="row">
+        <div class="col">
+        <h3>@ViewData["Intro"]</h3>
+        <p>@Model.MiMensaje</p>
+        <p>@Model.Parrafo1</p>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
+
 
 
 
