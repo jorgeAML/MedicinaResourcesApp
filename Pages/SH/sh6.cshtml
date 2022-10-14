@@ -11,13 +11,25 @@
 <h6>@ViewData["Title"], @ViewData["autor1"]</h6>
 <div class="container">
     <div class="row">
-        <div class="col">
+        <div class="col-sm">
         <h3>@ViewData["Intro"]</h3>
-        <p>@Model.MiMensaje</p>
         <p>@Model.Parrafo</p>
         <p>@Model.Parrafo2</p>
         </div>
-        <div class="col"></div>
+        <div class="col-sm"></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm"></div>
+        <div class="col-sm">
+        <h2>@Model.Titulo2</h2>
+        <p>@Model.Parrafo2A</p>
+        <p>@Model.Parrafo2B</p>
+        <p>@Model.Parrafo2C</p>
+        <p class="P2H"></p>
+        </div>
     </div>
 </div>
 
