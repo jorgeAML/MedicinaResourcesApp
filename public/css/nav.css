@@ -1,0 +1,23 @@
+/*SCREENS 1200px AND LARGER*/
+@media (min-width: 1200px) {
+    :root {
+        font-size: 0.9em;
+    }
+    .title-nav {
+        font-family: 'Bowlby One SC', cursive;
+    }
+    nav li {
+        display: inline-block;
+        font-size: 2em;
+        border-bottom: 4px solid black;
+    }
+    nav > li > a {
+        text-decoration: none;
+    }
+    nav {
+        list-style-type: none;
+        text-align: center;
+    }
+}
+
+
