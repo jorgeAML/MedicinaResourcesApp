@@ -1,0 +1,22 @@
+@media (min-width: 1200px) {
+    #part1 {
+        margin: 5% 0 0 0;
+    }
+    .container-column {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin: 0 5% 0 5%;
+    }
+    .container-row {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0;
+    }
+    .column {
+        flex: 1 1 33%;
+        align-self: center;
+    }
+}
