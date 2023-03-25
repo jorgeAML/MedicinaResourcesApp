@@ -1,0 +1,15 @@
+:root {
+    --border-card: 8px solid black;
+}
+@media (min-width: 1200px) {
+    .card2023 {
+        border-left: var(--border-card);
+        border-bottom: var(--border-card);
+    }
+    .card2023 > h2 {
+            font-family: var(--titles);
+            border-block: solid;
+            text-align: right;
+            writing-mode: horizontal-tb;
+    }
+}
