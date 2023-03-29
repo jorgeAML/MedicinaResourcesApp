@@ -1,15 +1,37 @@
 :root {
-    --border-card: 8px solid black;
+    --border-card: 10px solid black;
 }
 @media (min-width: 1200px) {
     .card2023 {
         border-left: var(--border-card);
         border-bottom: var(--border-card);
+        
     }
     .card2023 > h2 {
-            font-family: var(--titles);
-            border-block: solid;
-            text-align: right;
-            writing-mode: horizontal-tb;
+        padding: 2%;
+        margin: 0;
+        font-family: var(--titles);
+        border-block: solid;
+        text-align: left;
+        writing-mode: horizontal-tb;
+    }
+    .card2023 > p {
+        height: 40px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        padding: 3%;
+        text-align: justify; 
+    }
+    .b-mr {
+        background-color: transparent;
+        border: 4px solid black;
+        padding: 1%;
+        font-family: var(--titles);
+        margin: 2%;
+    }
+    .b-mr:hover{
+        background-color: aqua;
     }
 }

@@ -1,7 +1,12 @@
 :root {
     --titles: 'Bowlby One SC', cursive;
+    --p: 'Lexend', sans-serif;
 }
 a {
     text-decoration: none;
     color: black;
+}
+body {
+    margin: 0;
+    font-family: var(--p);
 }
