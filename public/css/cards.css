@@ -1,18 +1,21 @@
 :root {
-    --border-card: 10px solid black;
+    --border-card: 10px solid #5D5D5D;
+    --border-thin: 10px solid #8C9490;
+    --border-color: #5D5D5D;
 }
 @media (min-width: 1200px) {
     .card2023 {
-        border-left: var(--border-card);
+        border-left: var(--border-thin);
         border-bottom: var(--border-card);
+        border-right: var(--border-thin);
         
     }
     .card2023 > h2 {
         padding: 2%;
         margin: 0;
         font-family: var(--titles);
-        border-block: solid;
-        text-align: left;
+        border-block: 5px double var(--border-color);
+        text-align: center;
         writing-mode: horizontal-tb;
     }
     .card2023 > p {
@@ -26,12 +29,33 @@
     }
     .b-mr {
         background-color: transparent;
-        border: 4px solid black;
+        border: 4px double var(--border-color);
         padding: 1%;
         font-family: var(--titles);
         margin: 2%;
+        border-radius: 2px;
     }
     .b-mr:hover{
-        background-color: aqua;
+        background-color: #4C4646;
+        color: aliceblue;
+        cursor: pointer;
+    }
+    .c1 {
+        background-color: #EAC7B2;
+    }
+    .c2 {
+        background-color: #BCCAD9;
+    }
+    .c3 {
+        background-color: #B1C8C2;
+    }
+    .c4 {
+        background-color: #EBE8B3;
+    }
+    .c5 {
+        background-color: #9BD3A4;
+    }
+    .c6 {
+        background-color: #DA746C;
     }
 }
