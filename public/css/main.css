@@ -1,12 +1,14 @@
 :root {
     --titles: 'Bowlby One SC', cursive;
     --p: 'Lexend', sans-serif;
+    --global-color: #4E5A62;
 }
 a {
     text-decoration: none;
-    color: black;
+    color: var(--global-color);
 }
 body {
     margin: 0;
     font-family: var(--p);
+    color: var(--global-color);
 }

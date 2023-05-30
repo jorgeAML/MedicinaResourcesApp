@@ -10,14 +10,14 @@
     nav li {
         display: inline-block;
         font-size: 2em;
-        border-bottom: 4px solid black;
+        border-bottom: 4px solid var(--global-color);
     }
     nav {
         list-style-type: none;
         text-align: center;
     }
 }
-@media (min-width: 359px) {
+@media (max-width: 788px) {
     .title-nav {
         font-size: 2em;
         font-family: 'Bowlby One SC', cursive;
@@ -28,7 +28,7 @@
     nav li {
         display: inline-block;
         list-style-type: none;
-        border-bottom: 4px solid black;
+        border-bottom: 4px solid var(--global-color);
     }
 }
 
