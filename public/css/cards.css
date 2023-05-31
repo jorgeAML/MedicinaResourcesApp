@@ -1,10 +1,12 @@
 :root {
-    --border-card: 5px solid #666666;
-    --border-thin: 10px solid #666666;
-    --border-color: #CCCCCC;
+    --shadow-color: #242424;
+    --border-card: 5px solid #28323A;
+    --border-thin: 10px solid #FFEBCC;
+    --border-color: #28323A;
 }
 @media (min-width: 1200px) {
     .card2023 {
+        box-shadow: 6px 6px 1px -1px var(--shadow-color);
         border: var(--border-card);
         border-radius: 10px;
     }
@@ -12,7 +14,6 @@
         padding: 2%;
         margin: 0;
         font-family: var(--titles);
-        
         text-align: center;
         writing-mode: horizontal-tb;
     }
@@ -31,14 +32,14 @@
         padding: 1%;
         font-family: var(--titles);
         margin: 2%;
-        border-radius: 2px;
+        border-radius: 15px;
         color: var(--global-color);
     }
     .b-mr:hover{
         background-color: none;
         color: #FF9600;
         cursor: pointer;
-        border-radius: 2px;
+        border-radius: 15px;
     }
     .c1 {
         background-color: #EAC7B2;
