@@ -1,5 +1,6 @@
 const express = require('express');
 const routes = require('./routes/index');
+const anatomiaRoutes = require('./routes/anatomia');
 const path = require('path');
 const layouts = require('express-ejs-layouts');
 
@@ -10,6 +11,6 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 app.use(layouts);
 
-app.use('/', routes);
+app.use('/', routes, anatomiaRoutes);
 
 module.exports = app;

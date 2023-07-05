@@ -8,4 +8,7 @@ router.get('/', homeController.respondWithIndex);
 
 /* GET OTHERS */
 router.get('/about', controlOthers.about);
+/* GET ANATOMIA PAGES */
+
+
 module.exports = router;
