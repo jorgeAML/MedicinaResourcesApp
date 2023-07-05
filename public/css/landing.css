@@ -20,4 +20,8 @@
         align-self: center;
         margin: 0 1% 0 1%;
     }
+    .banner {
+        text-align: center;
+        font-size: 2em;
+    }
 }
