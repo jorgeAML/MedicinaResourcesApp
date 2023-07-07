@@ -2,11 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\controllers",
-    "\\public",
     "\\public\\css",
     "\\public\\js",
+    "\\routes",
     "\\views",
-    "\\views\\partials"
+    "\\views\\anatomia",
+    "\\views\\fisiologia"
   ],
+  "SelectedNode": "\\app.js",
   "PreviewInSolutionExplorer": false
 }
