@@ -2,13 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\controllers",
-    "\\public\\css",
-    "\\public\\js",
     "\\routes",
     "\\views",
-    "\\views\\anatomia",
-    "\\views\\fisiologia"
+    "\\views\\fisiologia",
+    "\\views\\histologia"
   ],
-  "SelectedNode": "\\app.js",
+  "SelectedNode": "\\routes\\histologia.js",
   "PreviewInSolutionExplorer": false
 }
