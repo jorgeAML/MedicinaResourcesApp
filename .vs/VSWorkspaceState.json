@@ -7,6 +7,6 @@
     "\\views\\fisiologia",
     "\\views\\histologia"
   ],
-  "SelectedNode": "\\routes\\histologia.js",
+  "SelectedNode": "\\controllers\\bioquimicaController.js",
   "PreviewInSolutionExplorer": false
 }
