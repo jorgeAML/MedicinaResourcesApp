@@ -4,6 +4,7 @@ const anatomiaRoutes = require('./routes/anatomia');
 const fisiologiaRoutes = require('./routes/fisiologia');
 const histologiaRoutes = require('./routes/histologia');
 const bioquimicaRoutes = require('./routes/bioquimica');
+const saludRoutes = require('./routes/salud');
 const path = require('path');
 const layouts = require('express-ejs-layouts');
 
@@ -14,6 +15,12 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 app.use(layouts);
 
-app.use('/', routes, anatomiaRoutes, fisiologiaRoutes, histologiaRoutes, bioquimicaRoutes);
+app.use('/', routes,
+    anatomiaRoutes,
+    fisiologiaRoutes,
+    histologiaRoutes,
+    bioquimicaRoutes,
+    saludRoutes
+);
 
 module.exports = app;

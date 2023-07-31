@@ -4,9 +4,12 @@
     "\\controllers",
     "\\routes",
     "\\views",
+    "\\views\\bioquimica",
     "\\views\\fisiologia",
-    "\\views\\histologia"
+    "\\views\\histologia",
+    "\\views\\salud_publica",
+    "\\views\\semiologia"
   ],
-  "SelectedNode": "\\controllers\\bioquimicaController.js",
+  "SelectedNode": "\\controllers\\saludpublicaController.js",
   "PreviewInSolutionExplorer": false
 }
