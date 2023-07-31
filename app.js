@@ -5,6 +5,7 @@ const fisiologiaRoutes = require('./routes/fisiologia');
 const histologiaRoutes = require('./routes/histologia');
 const bioquimicaRoutes = require('./routes/bioquimica');
 const saludRoutes = require('./routes/salud');
+const semioRoutes = require('./routes/semiologia');
 const path = require('path');
 const layouts = require('express-ejs-layouts');
 
@@ -20,7 +21,8 @@ app.use('/', routes,
     fisiologiaRoutes,
     histologiaRoutes,
     bioquimicaRoutes,
-    saludRoutes
+    saludRoutes,
+    semioRoutes
 );
 
 module.exports = app;
