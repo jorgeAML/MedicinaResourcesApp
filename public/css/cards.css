@@ -6,7 +6,7 @@
 }
 @media (min-width: 1200px) {
     .card2023 {
-        box-shadow: 6px 6px 1px -1px var(--shadow-color);
+        /*box-shadow: 6px 6px 1px -1px var(--shadow-color);*/
         border: var(--border-card);
         border-radius: 10px;
     }
@@ -28,11 +28,11 @@
     }
     .b-mr {
         background-color: transparent;
-        border: 6px solid var(--border-color);
+        border: 3px solid var(--border-color);
         padding: 1%;
         font-family: var(--titles);
         margin: 2%;
-        border-radius: 15px;
+        border-radius: 5px;
         color: var(--global-color);
     }
     .b-mr:hover{

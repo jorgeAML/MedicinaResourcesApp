@@ -10,6 +10,6 @@
     "\\views\\salud_publica",
     "\\views\\semiologia"
   ],
-  "SelectedNode": "\\controllers\\saludpublicaController.js",
+  "SelectedNode": "\\routes\\semiologia.js",
   "PreviewInSolutionExplorer": false
 }
